@@ -1,0 +1,46 @@
+# ============================================================================
+# SDR-Access -- o que NÃO entra no repositório
+# ============================================================================
+# Este repositório é público, mas distribui só o executável já compilado
+# (aba Releases). O código-fonte (Python, C/C++) e os binários de build
+# ficam de fora de propósito -- permanecem só na máquina de desenvolvimento.
+
+# Código-fonte (Python, C/C++) e binários de build
+*.py
+*.c
+*.cpp
+*.h
+*.dll
+*.lib
+*.a
+*.bat
+requirements.txt
+include/
+redsea/
+protocolos_dados/
+
+# Saída de empacotamento (PyInstaller e Nuitka) -- 100% gerada a partir do
+# código-fonte, nunca deve ser versionada. Recriada rodando
+# compilar_versao_oficial.bat (PyInstaller) ou
+# compilar_versao_oficial_nuitka.bat (Nuitka).
+dist/
+dist_nuitka/
+_build_temp/
+*.build/
+*.dist/
+*.onefile-build/
+
+# Cache de bytecode do Python
+__pycache__/
+*.pyc
+
+# Configuração local -- específica de cada computador/instalação (porta,
+# dispositivo de áudio, etc). Cada um mantém a sua própria cópia.
+config_sdr.json
+
+# Memórias e varreduras salvas pelo usuário -- dado pessoal de uso, não
+# código. A pasta é recriada sozinha pelo programa se não existir.
+MemoryManager/
+
+# Backups automáticos, se algum dia aparecerem aqui dentro
+.mhs_backups/

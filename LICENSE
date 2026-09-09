@@ -1,0 +1,66 @@
+LICENÇA DE USO — SDR-Access
+
+Copyright (c) 2026 Luan Richard / L-R Productions
+
+Este programa é distribuído gratuitamente, exclusivamente através das
+Releases oficiais deste repositório:
+https://github.com/luanmusical/SDR-access/releases
+
+TERMOS DE USO
+
+1. USO PERMITIDO
+   É permitido baixar, instalar e usar o SDR-Access livremente, para fins
+   pessoais ou institucionais, sem custo.
+
+2. REDISTRIBUIÇÃO
+   Não é permitido redistribuir, hospedar em outro serviço, ou disponibilizar
+   cópias deste programa (modificadas ou não) por qualquer canal que não seja
+   a página oficial de Releases acima, sem autorização prévia e por escrito
+   do autor.
+
+3. MODIFICAÇÃO E CÓDIGO-FONTE
+   Quando o código-fonte estiver disponível neste repositório, ele pode ser
+   consultado para fins de auditoria, estudo e contribuição. A criação de
+   versões modificadas para redistribuição pública requer autorização
+   prévia do autor.
+
+4. RESPONSABILIDADE E INTEGRIDADE DOS ARQUIVOS
+   O autor se responsabiliza apenas pelos arquivos publicados oficialmente
+   na página de Releases deste repositório, identificados pelo hash SHA-256
+   informado nas notas de cada versão. Cópias obtidas de qualquer outra
+   fonte, ou arquivos alterados após o download original, não têm garantia
+   de integridade e não são de responsabilidade do autor.
+
+5. AUSÊNCIA DE GARANTIA
+   ESTE PROGRAMA É FORNECIDO "COMO ESTÁ" ("AS IS"), SEM GARANTIA DE QUALQUER
+   TIPO, EXPRESSA OU IMPLÍCITA, INCLUINDO, MAS NÃO SE LIMITANDO A, GARANTIAS
+   DE ADEQUAÇÃO A UM PROPÓSITO ESPECÍFICO OU DE FUNCIONAMENTO ININTERRUPTO.
+   O uso é por conta e risco de quem instala e opera o programa. Por se
+   tratar de software que interage com equipamento de rádio (SDR), o autor
+   não se responsabiliza por eventual uso do receptor em desacordo com a
+   regulamentação de radiodifusão/telecomunicações aplicável ao usuário.
+
+6. BIBLIOTECAS DE TERCEIROS
+   Este programa utiliza as seguintes bibliotecas de terceiros, cada uma
+   sujeita à sua própria licença original:
+
+   - liquid-dsp (Joseph D. Gaeddert) — licença MIT.
+     https://github.com/jgaeddert/liquid-dsp
+   - libusb (equipe libusb) — licença LGPL-2.1 ou posterior.
+     https://github.com/libusb/libusb
+   - librtlsdr / rtl-sdr (Osmocom) — licença GPL-2.0 ou posterior.
+     https://github.com/osmocom/rtl-sdr
+   - dsdcc (Edouard Griffiths, F4EXB) — licença GPLv3.
+     https://github.com/f4exb/dsdcc
+   - mbelib (szechyjs) — licença BSD. O próprio projeto adverte que os
+     codecs de voz digital que ela implementa podem estar sujeitos a
+     patentes de terceiros (DVSI Inc.) em algumas jurisdições.
+     https://github.com/szechyjs/mbelib
+   - Driver USB para o dongle RTL-SDR (pacote WinUSB gerado via libwdi) —
+     Copyright (c) 2010-2016 Pete Batard <pete@akeo.ie>, licença LGPL.
+
+   O uso de bibliotecas licenciadas sob GPL/LGPL neste programa é feito por
+   integração em tempo de execução (DLL carregada dinamicamente), seguindo
+   a prática comum de outras aplicações SDR do mesmo tipo. Interessados no
+   código-fonte das próprias bibliotecas de terceiros (não do SDR-Access)
+   podem obtê-lo diretamente nos repositórios oficiais linkados acima.
