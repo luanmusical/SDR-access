@@ -58,9 +58,17 @@ TERMOS DE USO
      https://github.com/szechyjs/mbelib
    - Driver USB para o dongle RTL-SDR (pacote WinUSB gerado via libwdi) —
      Copyright (c) 2010-2016 Pete Batard <pete@akeo.ie>, licença LGPL.
+   - LAME (codificador MP3) — licença LGPL.
+     https://lame.sourceforge.io/
+   - libFLAC (Xiph.Org Foundation) — licença estilo BSD.
+     https://github.com/xiph/flac
 
-   O uso de bibliotecas licenciadas sob GPL/LGPL neste programa é feito por
-   integração em tempo de execução (DLL carregada dinamicamente), seguindo
-   a prática comum de outras aplicações SDR do mesmo tipo. Interessados no
-   código-fonte das próprias bibliotecas de terceiros (não do SDR-Access)
-   podem obtê-lo diretamente nos repositórios oficiais linkados acima.
+   O uso de bibliotecas licenciadas sob GPL/LGPL neste programa é feito, na
+   maior parte, por integração em tempo de execução (DLL carregada
+   dinamicamente), seguindo a prática comum de outras aplicações SDR do
+   mesmo tipo. A exceção é o LAME, compilado estaticamente dentro de
+   gravador.dll (módulo de gravação de áudio) — quem precisar recompilar ou
+   substituir essa biblioteca especificamente deve entrar em contato com o
+   autor. Interessados no código-fonte das próprias bibliotecas de terceiros
+   (não do SDR-Access) podem obtê-lo diretamente nos repositórios oficiais
+   linkados acima.

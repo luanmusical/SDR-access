@@ -42,5 +42,8 @@ config_sdr.json
 # código. A pasta é recriada sozinha pelo programa se não existir.
 MemoryManager/
 
+# Gravações de áudio feitas pelo usuário -- mesma lógica de MemoryManager/.
+record/
+
 # Backups automáticos, se algum dia aparecerem aqui dentro
 .mhs_backups/

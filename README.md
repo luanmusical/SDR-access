@@ -2,7 +2,7 @@
 
 Receptor de rádio definido por software (SDR) totalmente acessível por voz, integrado ao [NVDA](https://www.nvaccess.org/) (com repique automático no sintetizador padrão do Windows caso o NVDA não esteja rodando).
 
-Suporta recepção via dongle RTL-SDR local (USB), ou remota via servidor **SpyServer** ou **RTL-TCP** pela rede. Demodula AM, FM, WFM, NFM, banda lateral (LSB/USB) e CW, com squelch, controle de ganho, filtros, notch, varredura de VFO/memórias/automática, e decodificadores digitais experimentais (RDS, CTCSS, MDC-1200/FleetSync, APRS, ACARS, Morse/CW e modos de voz digital via dsdcc).
+Suporta recepção via dongle RTL-SDR local (USB), ou remota via servidor **SpyServer** ou **RTL-TCP** pela rede. Demodula AM, FM, WFM, NFM, banda lateral (LSB/USB) e CW, com squelch, controle de ganho, filtros, notch, varredura de VFO/memórias/automática, decodificadores digitais experimentais (RDS, CTCSS, MDC-1200/FleetSync, APRS, ACARS, Morse/CW e modos de voz digital via dsdcc), e gravação do áudio recebido em WAV, MP3 ou FLAC.
 
 ## Download
 
