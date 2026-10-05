@@ -45,5 +45,10 @@ MemoryManager/
 # Gravações de áudio feitas pelo usuário -- mesma lógica de MemoryManager/.
 record/
 
+# Logs de depuração e dados locais gerados pelo programa durante o uso/testes
+# (inclui o histórico de servidores remotos visitados -- dado pessoal).
+*.log
+historico_servidores.json
+
 # Backups automáticos, se algum dia aparecerem aqui dentro
 .mhs_backups/

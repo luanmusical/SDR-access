@@ -62,6 +62,16 @@ TERMOS DE USO
      https://lame.sourceforge.io/
    - libFLAC (Xiph.Org Foundation) — licença estilo BSD.
      https://github.com/xiph/flac
+   - Hamlib (equipe Hamlib; controle CAT de transceptores) — biblioteca sob
+     licença LGPL-2.1 ou posterior, carregada como DLL (libhamlib-4.dll).
+     https://github.com/Hamlib/Hamlib
+   - winpthreads / libwinpthread (projeto mingw-w64) — licença MIT/BSD.
+     https://www.mingw-w64.org/
+   - NVDA Controller Client (NV Access) — licença LGPL-2.1, carregada como
+     DLL (nvdaControllerClient64.dll).
+     https://github.com/nvaccess/nvda/tree/master/extras/controllerClient
+   - SAAPI64.dll — API do leitor de tela System Access (Serotek),
+     pertencente aos seus respectivos titulares.
 
    O uso de bibliotecas licenciadas sob GPL/LGPL neste programa é feito, na
    maior parte, por integração em tempo de execução (DLL carregada
