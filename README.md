@@ -10,6 +10,10 @@ Baixe a versão mais recente na aba **[Releases](../../releases)** deste reposit
 
 Cada Release traz as notas da versão com o hash **SHA-256** de cada arquivo. Só são oficiais os arquivos publicados ali — cópias obtidas por qualquer outro canal não têm garantia de integridade.
 
+## Atualização automática
+
+A partir da versão 1.10.1, o programa verifica sozinho, ao abrir e em silêncio, se há uma versão nova aqui no GitHub. Se houver, mostra um aviso com **Atualizar agora** ou **Continuar sem atualizar**; atualizando, ele baixa o pacote oficial (conferindo o SHA-256), troca os arquivos e abre de novo — **mantendo suas configurações, memórias e gravações**. No menu **Configurações** (Alt+C) dá para desligar a verificação ao iniciar ou buscar atualizações na hora. Quem usa uma versão anterior à 1.10.1 precisa baixar a 1.10.1 manualmente uma única vez.
+
 ## Requisitos
 
 - Windows 10/11 (64 bits)
