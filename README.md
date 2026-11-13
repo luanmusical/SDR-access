@@ -4,6 +4,8 @@ Receptor de rádio definido por software (SDR) totalmente acessível por voz, ot
 
 Suporta recepção via dongle RTL-SDR local (USB), ou remota via servidor **SpyServer** ou **RTL-TCP** pela rede — e também pode funcionar como servidor, compartilhando o seu dongle com outro SDR-Access (Modo Servidor), com busca de dongles na rede local, de servidores SpyServer públicos e histórico de servidores. Demodula AM, FM, WFM, NFM, banda lateral (LSB/USB) e CW, com squelch, controle de ganho, filtros, notch, varredura de VFO/memórias/automática (nos sentidos crescente e decrescente — tecla D), decodificadores digitais experimentais (RDS, CTCSS, MDC-1200/FleetSync, APRS, ACARS, Morse/CW e modos de voz digital via dsdcc), gravação do áudio recebido em WAV, MP3 ou FLAC (inclusive gravação por atividade) e controle CAT de transceptores externos via Hamlib.
 
+A partir da versão 1.14.0, o programa também recebe **DRM (Digital Radio Mondiale)** — o padrão de rádio digital em ondas curtas/médias usado por emissoras internacionais como a Rádio Nacional da China (CNR) e a Rádio Nova Zelândia Pacific. O receptor de DRM foi escrito do zero (sincronismo, decodificação de canal e áudio AAC/HE-AAC/xHE-AAC) e mostra o nome, idioma e tipo de programa da emissora (tecla **R**, igual o RDS do FM).
+
 ## Download
 
 Baixe a versão mais recente na aba **[Releases](../../releases)** deste repositório. O pacote já vem pronto pra rodar no Windows — não precisa instalar Python nem compilar nada. O manual completo em PDF acompanha cada Release.

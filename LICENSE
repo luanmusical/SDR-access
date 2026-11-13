@@ -72,13 +72,26 @@ TERMOS DE USO
      https://github.com/nvaccess/nvda/tree/master/extras/controllerClient
    - SAAPI64.dll — API do leitor de tela System Access (Serotek),
      pertencente aos seus respectivos titulares.
+   - Fraunhofer FDK AAC Codec Library (decodificação de áudio AAC/HE-AAC/
+     xHE-AAC do modo DRM, a partir da versão 1.14.0) — licença própria da
+     Fraunhofer-Gesellschaft, que exige a manutenção do texto completo da
+     licença em redistribuições (reproduzido na íntegra em
+     [LICENSE-FDK-AAC.txt](LICENSE-FDK-AAC.txt) deste repositório);
+     carregada como DLL (libfdk-aac-2.dll).
+     https://github.com/mstorsjo/fdk-aac
+   - redsea (Pasi Lankinen / Oona Räisänen, "windytan") — decodificador de
+     RDS do modo FM, a partir da versão 1.14.0 — licença MIT.
+     https://github.com/windytan/redsea
 
    O uso de bibliotecas licenciadas sob GPL/LGPL neste programa é feito, na
    maior parte, por integração em tempo de execução (DLL carregada
    dinamicamente), seguindo a prática comum de outras aplicações SDR do
-   mesmo tipo. A exceção é o LAME, compilado estaticamente dentro de
-   gravador.dll (módulo de gravação de áudio) — quem precisar recompilar ou
-   substituir essa biblioteca especificamente deve entrar em contato com o
-   autor. Interessados no código-fonte das próprias bibliotecas de terceiros
-   (não do SDR-Access) podem obtê-lo diretamente nos repositórios oficiais
-   linkados acima.
+   mesmo tipo. As exceções são o LAME, compilado estaticamente dentro de
+   gravador.dll (módulo de gravação de áudio), e o redsea, compilado
+   estaticamente dentro de motor_sdr.dll (nesse caso com pequenas
+   adaptações de integração, claramente marcadas no código-fonte do
+   redsea como tal, sem alterar a lógica de decodificação em si) — quem
+   precisar recompilar ou substituir essas bibliotecas especificamente
+   deve entrar em contato com o autor. Interessados no código-fonte das
+   próprias bibliotecas de terceiros (não do SDR-Access) podem obtê-lo
+   diretamente nos repositórios oficiais linkados acima.
